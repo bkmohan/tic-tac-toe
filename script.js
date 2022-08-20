@@ -54,7 +54,7 @@ const gameBoard = (() => {
 const displayGameStatus = function(status, lastPlayer){
     if(status){
         if(status == playerStep){
-            resultModal.textContent = "You Win!!! 😆";
+            resultModal.textContent = "You Win!!! 😃";
             resultModalContainer.style.display = 'block'
             console.log("You Win!!!")
         }
