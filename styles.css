@@ -6,6 +6,10 @@ html, body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body{
+    position: relative;
+
+}
 
 .content{
     width: 100%;
@@ -39,6 +43,46 @@ html, body{
 
 .game-cell:hover{
     background-color: rgba(255, 255, 255, 0.6);
+}
+
+#reset{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+    width: 128px;
+    height: 36px;
+    font-size: 18px;
+    color: #757575;
+    border: none;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.resultModal{
+    display: none;
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+}
+
+#modal{
+    position:absolute; 
+    width: 100%;
+    height: 250px;
+    margin: auto auto;
+    top: calc(50% - 125px);
+    background-color: rgba(0,0,0,0.4); 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 48px;
 }
 
 
